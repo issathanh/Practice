@@ -41,12 +41,16 @@ public class MergeSort {
             }
             k++; 
         }
+        //if theres any element left in the left side 
+        //add those element in the array
         while(i<leftSize)
         {
             arr[k] = leftSide[i]; 
             k++; 
             i++; 
         }
+        //if theres any element left in the right side
+        //add those elelemtn in the array
         while(j<rightSize)
         {
             arr[k] = rightSide[j];
